@@ -133,3 +133,9 @@ Looking to the future, there have been a variety of proposed enhancements to CSS
 
 
 ## flex
+
+## Scrolling
+
+- `-webkit-overflow-scrolling: touch`
+
+Use this to make srolling more smoother on iOS(Safari) device
