@@ -69,21 +69,21 @@ If you want to see full stack, you can define `namespace` to `{namespace}\arbitr
 ```json
 {
     "name": "Unknown Class",
-    "message": "Unable to find 'backend\\modules\\helpdesk\\controllers\\katherine\\TestController' in file: /srv/omnisocials-backend/src/backend/modules/helpdesk/controllers/katherine/TestController.php. Namespace missing?",
+    "message": "Unable to find 'backend\\modules\\helpdesk\\controllers\\katherine\\TestController' in file: /srv/src/backend/modules/helpdesk/controllers/katherine/TestController.php. Namespace missing?",
     "code": 0,
     "type": "yii\\base\\UnknownClassException",
-    "file": "/srv/omnisocials-backend/src/vendor/yiisoft/yii2/BaseYii.php",
+    "file": "/srv/src/vendor/yiisoft/yii2/BaseYii.php",
     "line": 296,
     "stack-trace": [
         "#0 [internal function]: yii\\BaseYii::autoload('backend\\\\modules...')",
         "#1 [internal function]: spl_autoload_call('backend\\\\modules...')",
-        "#2 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/base/Module.php(640): class_exists('backend\\\\modules...')",
-        "#3 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/base/Module.php(597): yii\\base\\Module->createControllerByID('katherine/test')",
-        "#4 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/base/Module.php(589): yii\\base\\Module->createController('hello')",
-        "#5 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/base/Module.php(522): yii\\base\\Module->createController('katherine/test/...')",
-        "#6 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/web/Application.php(105): yii\\base\\Module->runAction('helpdesk/kather...', Array)",
-        "#7 /srv/omnisocials-backend/src/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))",
-        "#8 /srv/omnisocials-backend/src/backend/web/index.php(18): yii\\base\\Application->run()",
+        "#2 /srv/src/vendor/yiisoft/yii2/base/Module.php(640): class_exists('backend\\\\modules...')",
+        "#3 /srv/src/vendor/yiisoft/yii2/base/Module.php(597): yii\\base\\Module->createControllerByID('katherine/test')",
+        "#4 /srv/src/vendor/yiisoft/yii2/base/Module.php(589): yii\\base\\Module->createController('hello')",
+        "#5 /srv/src/vendor/yiisoft/yii2/base/Module.php(522): yii\\base\\Module->createController('katherine/test/...')",
+        "#6 /srv/src/vendor/yiisoft/yii2/web/Application.php(105): yii\\base\\Module->runAction('helpdesk/kather...', Array)",
+        "#7 /srv/src/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))",
+        "#8 /srv/src/backend/web/index.php(18): yii\\base\\Application->run()",
         "#9 {main}"
     ]
 }
